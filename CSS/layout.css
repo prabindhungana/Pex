@@ -1,0 +1,318 @@
+.wrapper
+{
+	max-width: 100em;
+}
+
+.header
+{
+	background: url("../Images/Background1.png");
+	background-position: cover;
+}
+
+.upperheader
+{
+	border-bottom: 1px solid gray;
+	position: relative;
+	line-height: 60px
+}
+
+.upperheader-container
+{
+	width: 84.773060%;
+	margin-left: 13.177159%;
+}
+
+.logo
+{
+	margin-right: 8px;
+}
+
+.upperheader-container span
+{
+	display: none;
+}
+
+.ham-menu
+{
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.ham-menu
+{
+	cursor: pointer;
+}
+
+.ham-menu img
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 5px;
+}
+
+.navigation
+{
+display: none;
+position: absolute;
+top: 61px;
+right: 0px;
+background: #c6556b;
+}
+
+.ham-menu:hover + .navigation
+{
+	display: block;
+}
+
+.navigation:hover
+{
+	display: block;
+}
+
+.search-bar
+{
+	display: none;
+	position: relative;
+}
+
+.search input[type="text"]
+{
+	width: 190px;
+	margin-left: 23px;
+	height: 44px;
+	border: none;
+	border-radius: 25px;
+	padding-left: 10px;
+	padding-right: 30px;
+	position: relative;
+}
+
+.search-bar img
+{
+	position: absolute;
+	right: 10px;
+	top: 35px;
+}
+
+.search-bar img:hover
+{
+	cursor: pointer;
+}
+
+.lowerheader-content
+{
+	margin-left: 13.177159%;
+	width: 31.844802%;
+	text-align: right;
+	padding-top: 20.351390%;
+	padding-bottom: 18.448023%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.quotes
+{
+	background: #2e3b4e;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.quotes-container
+{
+	
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top:5.710102%;
+	padding-bottom: 10.248901%;
+	color: white;
+}
+
+.left-quotes, .right-quotes
+{
+	width: 100%;
+	text-align: justify;
+}
+
+.getting-started
+{
+	background: #e7526b;
+	background-image: url("../Images/pink-transparent.png");
+}
+
+.getstart
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 11.346998%;
+	padding-bottom:14.1288435%;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.getstart h2
+{
+	margin-bottom:2.714285%;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.getstart p
+{
+	line-height: 28px;
+	margin-bottom: 4.285714%;
+	font-size: 15px;
+}
+
+.writing
+{
+	width: 39.311859%;
+	height: 500px;
+	display: none;
+
+}
+
+.writing img
+{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+
+.details
+{
+	margin-right: 13.030746%;
+	margin-left: 20px;
+	padding-top: 6.954612%;
+	padding-bottom: 9.590043%;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.experience
+{
+	background: url("../Images/purple transparent.png"), url("../Images/hills.png");
+}
+
+.experience-content
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 13.836017%;
+	padding-bottom: 8.784773%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.photography
+{
+	background: url("../Images/shading.png"), url("../Images/food.png");
+}
+
+.photography-content
+{
+	
+	margin-left: 13.030746%;
+	padding-top: 26.354319%;
+	padding-bottom: 6.588579%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.photography-content h1
+{
+	margin-bottom: 3.440702%;
+	font-size: 24px;
+	padding-right: 20px;
+}
+
+.photography-content button
+{
+	width:116px;
+	height: 36px;
+	background: transparent;
+	color: white;
+	border: solid 2px white;
+	border-radius: 30px;
+	margin-bottom:2.196193%;
+	font-size: 13px;
+}
+
+.author
+{
+	position: relative;
+}
+
+.author img
+{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-right: 12px;
+}
+
+.author span
+{
+	position: absolute;
+	top: 20%;
+	font-size: 13px;
+}
+
+.wristwatch-text
+{
+	margin-left: 13.030746%;
+	padding-top: 8.345534%;
+	padding-bottom: 9.809663%;
+	margin-right: 20px;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wristwatch-img
+{
+	width: 41.874084%;
+	height: 500px;
+	display: none;
+}
+
+.wristwatch-img img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.upper-footer
+{
+	background-color: #e7526b;
+}
+
+.lower-footer
+{
+	background:#2e3b4e;
+}
+
+.upper-footer-container
+{
+	margin-left: 13.030746%;
+	padding-top:5.710102%;
+	padding-bottom: 16.691068%;
+	margin-right: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.lower-footer-container
+{
+	margin-left: 13.030746%;
+	padding-top:3.2210835%;
+	padding-bottom: 22.620790%;
+	margin-right: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}

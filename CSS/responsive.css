@@ -1,0 +1,330 @@
+@media (min-width: 480px)
+{
+	.lowerheader-content h1
+	{
+	font-size: 24px;
+	}
+
+	.lowerheader-content button, .experience-content button
+	{
+	width :170px;
+	height: 45px;
+	}
+
+	.quotes-container
+	{
+	
+	margin-left: 40px;
+	margin-right: 40px;
+	}
+
+	.getstart button
+	{
+		width: 200px;
+		height: 50px;
+	}
+
+	.getstart h2
+	{
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.upperheader-container
+	{
+		line-height: 80px;
+	}
+
+	.navigation
+	{
+		display: block;
+		background: none;
+		top: 0;
+		right:0;
+	}
+
+	.navigation li:hover
+	{
+		border-top: none;
+	}
+
+	.navigation li
+	{
+		float: left;
+		margin-right: 43px;
+		padding: 0;
+		line-height: 80px;
+	}
+
+	
+	.ham-menu
+	{
+		display: none;
+	}
+	
+
+	.lowerheader-content h1
+	{
+	font-size: 30px;
+	}
+
+	.lowerheader-content button, .experience-content button
+	{
+	width :180px;
+	height: 50px;
+	}
+
+	.quotes-container
+	{
+		width: 51.244509%;
+		margin: 0 auto;
+	}
+
+	.left-quotes
+	{
+		float: left;
+		width: 48.142857%;
+	}
+
+	.right-quotes
+	{
+		float: right;
+		width: 48.142857%;
+
+	}
+
+	.getstart
+	{
+	
+	margin: 0 auto;
+	}
+
+	.getstart button
+	{
+		width:220px;
+		height: 55px;
+	}
+	.getstart h2
+	{
+		font-size: 26px;
+		font-weight: lighter;
+	}
+
+	.getstart p
+	{
+		width: 32.576866%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.writing img
+	{
+		display: block;
+		width: 39.311859%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+	}
+
+	.experience-content p
+	{
+		width: 46.120058%;
+		margin: 0 auto;
+	}
+
+
+	.writing-in-detail
+	{
+		position: relative;
+	}
+	.writing
+	{
+		float: left;
+		display: block;
+		width: 39.311859%;
+	}
+
+	.details
+	{
+		float: right;
+		width:40.775988%;
+	}
+
+	.wristwatch
+	{
+		position: relative;
+	}
+
+	.wristwatch-img img
+	{
+		width: 39.311859%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+	}
+
+	.wristwatch-text
+	{
+		float: left;
+		width:40.775988%;
+
+	}
+
+	.wristwatch-img
+	{
+		float: right;
+		width: 39.311859%;
+		display: block;
+	}
+
+	.photography-content h1
+	{
+		width: 447px;
+		font-size: 40px;
+		font-weight: lighter;
+	}
+
+
+}
+
+@media (min-width: 992px)
+{
+	.upperheader-container
+	{
+		line-height: 90px;
+	}
+
+	.search-bar
+	{
+	display: block;
+	}
+
+	.navigation
+	{
+		right: 190px;
+	}
+
+	.navigation li
+	{
+		line-height: 90px;
+	}
+
+	.search-bar img
+	{
+		top: 40px;
+	}
+
+	.lowerheader-content h1
+	{
+	font-size: 36px;
+	}
+
+	.lowerheader-content button, .experience-content button
+	{
+	width :200px;
+	height: 50px;
+	font-size: 18px;
+	}
+
+	.getstart button
+	{
+		width: 250px;
+		height: 63px;
+		font-size: 18px;
+	}
+
+	.experience-content h2
+	{
+	font-size: 40px;
+	}
+
+	.experience-content p
+	{
+	font-size: 18px;
+	}
+
+	.getstart h2
+	{
+		font-size: 30px;
+		font-weight: lighter;
+	}
+
+	.upper-footer-container p
+	{
+	width: 24.524158%;
+	}
+
+	.quotes::after 
+	{
+	position: absolute;
+	content: url("../Images/design.png");
+	left: 39%;
+	}
+
+}
+
+@media (min-width: 1200px)
+{
+	.upperheader-container
+	{
+		line-height: 102px;
+	}
+
+	.upperheader-container span
+	{
+		display: inline;
+	}
+
+
+	.navigation
+	{
+		right: 200px;
+	}
+
+	.navigation li
+	{
+		line-height: 102px;
+	}
+
+
+	.search
+	{
+		display: inline-block;
+	}
+
+	.search-bar img
+	{
+		top: 45px;
+	}
+
+	.lowerheader-content h1
+	{
+	font-size: 50px;
+	}
+
+	.lowerheader-content button, .experience-content button
+	{
+	width :238px;
+	height: 60px;
+	}
+
+	.getstart h2
+	{
+		font-size: 35px;
+		font-weight: lighter;
+	}
+
+	.photography-content h1
+	{
+		font-size: 50px;
+	}
+
+	.quotes::after 
+	{
+	left: 41%;
+	}
+
+
+}

@@ -1,0 +1,159 @@
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+.upperheader-container span
+{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+}
+.navigation li
+{
+	list-style-type: none;
+	color: white;
+	padding: 10px;
+	line-height: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+.navigation li a
+{
+	color: white;
+}
+
+.navigation li:hover
+{
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+}
+
+.lowerheader-content h1
+{
+	font-size: 18px;
+	padding-bottom: 11.494252%;
+	color: white;
+}
+
+.lowerheader-content button
+{
+	width :130px;
+	height: 40px;
+	background-color: #8824cd;
+	border: 0;
+	border-radius: 25px;
+	margin-bottom: 4.137931%;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.lowerheader-content p
+{
+	color: white;
+	font-size: 12px;
+
+}
+
+.quotes-container h2
+{
+	font-size: 15px;
+	margin-bottom: 5%;
+}
+
+.quotes-container p
+{
+	margin-bottom: 9.714285%;
+	font-size: 15px;
+}
+
+.getstart button
+{	
+	width: 180px;
+	height: 40px;
+	color: #e7526b;
+	background: white;
+	border: 0;
+	border-radius: 30px;
+	font-size: 14px;
+
+}
+
+.details h2, .wristwatch h2
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.first-para
+{
+	font-size: 19px;
+	line-height: 34px;
+	margin-bottom: 2.928257%;
+}
+
+.second-para
+{
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.experience-content h2
+{
+	margin-bottom:2.196193%;
+	font-weight: lighter;
+}
+
+.experience-content p
+{
+	line-height: 32px;
+	margin-bottom: 2.196193%;
+}
+
+.experience-content button
+{
+	margin-bottom: 1.317715%;
+	width:130px;
+	height: 40px;
+	background: #8824cd;
+	border: 0;
+	border-radius: 30px;
+	color: white;
+}
+
+.experience-content div
+{
+	font-size: 12px;
+}
+
+.footer
+{
+	color: white;
+}
+
+.upper-footer-container h2
+{
+	margin-bottom: 1.756954%;
+	font-size: 15px;
+}
+
+.upper-footer-container p
+{
+	margin-bottom: 2.708638%;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+.email
+{
+	text-decoration: underline;
+	font-size: 15px;
+}

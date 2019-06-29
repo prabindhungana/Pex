@@ -28,6 +28,7 @@ button:hover
 .navigation li a
 {
 	color: white;
+	display: block;
 }
 
 .navigation li:hover
@@ -156,4 +157,9 @@ button:hover
 {
 	text-decoration: underline;
 	font-size: 15px;
+}
+
+.email a
+{
+	color: white;
 }

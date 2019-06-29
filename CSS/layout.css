@@ -1,25 +1,25 @@
-.wrapper
+.container
 {
-	max-width: 100em;
+	margin-left: 13.177159%;
 }
 
 .header
 {
 	background: url("../Images/Background1.png");
-	background-position: cover;
 }
 
 .upperheader
 {
+	border-bottom: 1px solid gray
+	line-height: 60px;
 	border-bottom: 1px solid gray;
-	position: relative;
-	line-height: 60px
 }
 
 .upperheader-container
 {
 	width: 84.773060%;
-	margin-left: 13.177159%;
+	position: relative;
+	line-height: 60px;
 }
 
 .logo
@@ -57,7 +57,7 @@
 display: none;
 position: absolute;
 top: 61px;
-right: 0px;
+right: -20px;
 background: #c6556b;
 }
 
@@ -103,9 +103,8 @@ background: #c6556b;
 
 .lowerheader-content
 {
-	margin-left: 13.177159%;
-	width: 31.844802%;
-	text-align: right;
+	width: 37.435519%;
+	text-align: left;
 	padding-top: 20.351390%;
 	padding-bottom: 18.448023%;
 	font-family: 'Open Sans', sans-serif;
@@ -217,12 +216,11 @@ background: #c6556b;
 
 .photography-content
 {
-	
-	margin-left: 13.030746%;
 	padding-top: 26.354319%;
 	padding-bottom: 6.588579%;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
+	width: 38.172439%;
 
 }
 
@@ -300,7 +298,6 @@ background: #c6556b;
 
 .upper-footer-container
 {
-	margin-left: 13.030746%;
 	padding-top:5.710102%;
 	padding-bottom: 16.691068%;
 	margin-right: 20px;
@@ -309,7 +306,6 @@ background: #c6556b;
 
 .lower-footer-container
 {
-	margin-left: 13.030746%;
 	padding-top:3.2210835%;
 	padding-bottom: 22.620790%;
 	margin-right: 20px;

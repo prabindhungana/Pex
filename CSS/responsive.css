@@ -76,25 +76,6 @@
 	height: 50px;
 	}
 
-	.quotes-container
-	{
-		width: 51.244509%;
-		margin: 0 auto;
-	}
-
-	.left-quotes
-	{
-		float: left;
-		width: 48.142857%;
-	}
-
-	.right-quotes
-	{
-		float: right;
-		width: 48.142857%;
-
-	}
-
 	.getstart
 	{
 	
@@ -181,7 +162,6 @@
 
 	.photography-content h1
 	{
-		width: 447px;
 		font-size: 40px;
 		font-weight: lighter;
 	}
@@ -216,6 +196,11 @@
 		top: 40px;
 	}
 
+	.lowerheader-content
+	{
+		text-align: right;
+	}
+
 	.lowerheader-content h1
 	{
 	font-size: 36px;
@@ -233,6 +218,25 @@
 		width: 250px;
 		height: 63px;
 		font-size: 18px;
+	}
+
+	.quotes-container
+	{
+		width: 51.244509%;
+		margin: 0 auto;
+	}
+
+	.left-quotes
+	{
+		float: left;
+		width: 48.142857%;
+	}
+
+	.right-quotes
+	{
+		float: right;
+		width: 48.142857%;
+
 	}
 
 	.experience-content h2

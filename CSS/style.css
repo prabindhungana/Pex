@@ -5,6 +5,11 @@ a
 }
 
 
+button
+{
+	outline: none;
+}
+
 .upperheader-container span
 {
 	color: white;

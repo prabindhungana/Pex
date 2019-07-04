@@ -53,7 +53,7 @@
 	.navigation li
 	{
 		float: left;
-		margin-right: 43px;
+		margin-right: 51px;
 		padding: 0;
 		line-height: 80px;
 	}
@@ -264,7 +264,7 @@
 	{
 	position: absolute;
 	content: url("../Images/design.png");
-	left: 39%;
+	left: 43%;
 	}
 
 }
@@ -325,10 +325,6 @@
 		font-size: 50px;
 	}
 
-	.quotes::after 
-	{
-	left: 41%;
-	}
 
 
 }

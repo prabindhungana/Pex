@@ -7,7 +7,7 @@ a
 
 button
 {
-	outline: none;
+	outline: 0;
 }
 
 .upperheader-container span

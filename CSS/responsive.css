@@ -5,6 +5,11 @@
 	font-size: 24px;
 	}
 
+	.navigation
+	{
+		right: -40;
+	}
+
 	.lowerheader-content button, .experience-content button
 	{
 	width :170px;

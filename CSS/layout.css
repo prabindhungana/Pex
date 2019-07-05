@@ -12,8 +12,6 @@
 
 .upperheader
 {
-	border-bottom: 1px solid gray
-	line-height: 60px;
 	border-bottom: 1px solid gray;
 }
 
@@ -21,6 +19,7 @@
 {
 	width: 84.773060%;
 	position: relative;
+	line-height: 60px;
 }
 
 .logo
@@ -38,10 +37,6 @@
 	width: 50px;
 	height: 50px;
 	position: relative;
-}
-
-.ham-menu
-{
 	cursor: pointer;
 }
 

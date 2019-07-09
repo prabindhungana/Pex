@@ -5,15 +5,10 @@
 	font-size: 24px;
 	}
 
-	.navigation
-	{
-		right: -40;
-	}
 
-	.lowerheader-content button, .experience-content button
+	.lowerheader-content a, .experience-content button
 	{
-	width :170px;
-	height: 45px;
+	padding: 15px 20px;
 	}
 
 	.quotes-container
@@ -33,11 +28,12 @@
 	{
 		font-size: 24px;
 	}
+
 }
 
 @media (min-width: 768px)
 {
-	.upperheader-container
+	.logo
 	{
 		line-height: 80px;
 	}
@@ -75,10 +71,9 @@
 	font-size: 30px;
 	}
 
-	.lowerheader-content button, .experience-content button
+	.lowerheader-content a, .experience-content button
 	{
-	width :180px;
-	height: 50px;
+	padding: 20px 55px 20px 56px;
 	}
 
 	.getstart
@@ -176,13 +171,14 @@
 
 @media (min-width: 992px)
 {
-	.upperheader-container
+	.logo
 	{
 		line-height: 90px;
 	}
 
 	.search-bar
 	{
+	line-height: 90px;
 	display: block;
 	}
 
@@ -211,10 +207,9 @@
 	font-size: 36px;
 	}
 
-	.lowerheader-content button, .experience-content button
+	.lowerheader-content a, .experience-content button
 	{
-	width :200px;
-	height: 50px;
+	padding: 20px 55px 20px 56px;
 	font-size: 18px;
 	}
 
@@ -276,7 +271,7 @@
 
 @media (min-width: 1200px)
 {
-	.upperheader-container
+	.logo
 	{
 		line-height: 102px;
 	}
@@ -301,6 +296,7 @@
 	.search
 	{
 		display: inline-block;
+		line-height: 102px;
 	}
 
 	.search-bar img
@@ -311,12 +307,6 @@
 	.lowerheader-content h1
 	{
 	font-size: 50px;
-	}
-
-	.lowerheader-content button, .experience-content button
-	{
-	width :238px;
-	height: 60px;
 	}
 
 	.getstart h2

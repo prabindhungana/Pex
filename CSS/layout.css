@@ -19,17 +19,23 @@
 {
 	width: 84.773060%;
 	position: relative;
-	line-height: 60px;
 }
+
 
 .logo
 {
 	margin-right: 8px;
+	line-height: 60px;
 }
 
-.upperheader-container span
+
+
+.logo-text
 {
+	position: absolute;
 	display: none;
+	color: white;
+	top: 44px;
 }
 
 .ham-menu
@@ -38,6 +44,11 @@
 	height: 50px;
 	position: relative;
 	cursor: pointer;
+}
+
+.ham-menu:focus
+{
+	outline: none;
 }
 
 .ham-menu img
@@ -53,7 +64,7 @@
 display: none;
 position: absolute;
 top: 61px;
-right: -20px;
+right: -9px;
 background: #c6556b;
 }
 
@@ -106,10 +117,9 @@ background: #c6556b;
 	font-family: 'Open Sans', sans-serif;
 }
 
-.lowerheader-content button:hover
+.lowerheader-content a:hover
 {
 	background: #6b11aa;
-	cursor: pointer;
 }
 
 .quotes

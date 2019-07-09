@@ -12,7 +12,6 @@ button:focus
 
 .upperheader-container span
 {
-	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 }
@@ -20,8 +19,8 @@ button:focus
 {
 	list-style-type: none;
 	color: white;
-	padding: 10px;
-	line-height: 20px;
+	padding: 10px 50px;
+	line-height: 20px ;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 }
@@ -45,13 +44,13 @@ button:focus
 	color: white;
 }
 
-.lowerheader-content button
+.lowerheader-content a
 {
-	width :130px;
-	height: 40px;
+	display: inline-block;
+	padding: 10px 0;
 	background-color: #8824cd;
 	border: 0;
-	border-radius: 25px;
+	border-radius: 50px;
 	margin-bottom: 4.137931%;
 	color: white;
 	font-size: 14px;
@@ -69,6 +68,7 @@ button:focus
 {
 	font-size: 15px;
 	margin-bottom: 5%;
+	text-transform: uppercase;
 }
 
 .quotes-container p

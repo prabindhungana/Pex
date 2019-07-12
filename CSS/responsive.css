@@ -6,7 +6,7 @@
 	}
 
 
-	.lowerheader-content a, .experience-content button
+	.lowerheader-content a, .experience-content a
 	{
 	padding: 15px 20px;
 	}
@@ -18,10 +18,9 @@
 	margin-right: 40px;
 	}
 
-	.getstart button
+	.getstart a
 	{
-		width: 200px;
-		height: 50px;
+		padding: 15px 40px;
 	}
 
 	.getstart h2
@@ -33,17 +32,16 @@
 
 @media (min-width: 768px)
 {
-	.logo
+
+	.logo-container
 	{
-		line-height: 80px;
+		padding: 25px 0;
 	}
 
 	.navigation
 	{
 		display: block;
 		background: none;
-		top: 0;
-		right:0;
 	}
 
 	.navigation li:hover
@@ -71,7 +69,7 @@
 	font-size: 30px;
 	}
 
-	.lowerheader-content a, .experience-content button
+	.lowerheader-content a, .experience-content a
 	{
 	padding: 20px 55px 20px 56px;
 	}
@@ -82,10 +80,9 @@
 	margin: 0 auto;
 	}
 
-	.getstart button
+	.getstart a
 	{
-		width:220px;
-		height: 55px;
+		padding: 20px 60px;
 	}
 	.getstart h2
 	{
@@ -115,6 +112,105 @@
 		margin: 0 auto;
 	}
 
+
+	
+
+	.photography-content h1
+	{
+		font-size: 40px;
+		font-weight: lighter;
+	}
+
+
+}
+
+@media (min-width: 992px)
+{
+
+	.lowerheader-content
+	{
+		width: 47.8125%;
+	}
+
+	.search-bar
+	{
+	line-height: 90px;
+	display: block;
+	}
+
+
+	.navigation li
+	{
+		line-height: 90px;
+	}
+
+	.search-bar img
+	{
+		top: 40px;
+	}
+
+	.lowerheader-content
+	{
+		text-align: right;
+	}
+
+	.lowerheader-content h1
+	{
+	font-size: 36px;
+	}
+
+	.lowerheader-content a, .experience-content a
+	{
+	padding: 20px 55px 20px 56px;
+	font-size: 18px;
+	}
+
+	.getstart a
+	{
+		padding: 25px 90px;
+		font-size: 18px;
+	}
+
+	.left-quotes
+	{
+		float: left;
+		width: 48.142857%;
+	}
+
+	.right-quotes
+	{
+		float: right;
+		width: 48.142857%;
+
+	}
+
+	.experience-content h2
+	{
+	font-size: 40px;
+	}
+
+	.experience-content p
+	{
+	font-size: 18px;
+	}
+
+	.getstart h2
+	{
+		font-size: 30px;
+		font-weight: lighter;
+	}
+
+	.upper-footer-container p
+	{
+	width: 24.524158%;
+	}
+
+	.quotes::after 
+	{
+	position: absolute;
+	content: url("../Images/design.png");
+	left: 43%;
+	}
 
 	.writing-in-detail
 	{
@@ -160,121 +256,38 @@
 		display: block;
 	}
 
-	.photography-content h1
-	{
-		font-size: 40px;
-		font-weight: lighter;
-	}
-
-
-}
-
-@media (min-width: 992px)
-{
-	.logo
-	{
-		line-height: 90px;
-	}
-
-	.search-bar
-	{
-	line-height: 90px;
-	display: block;
-	}
-
-	.navigation
-	{
-		right: 190px;
-	}
-
-	.navigation li
-	{
-		line-height: 90px;
-	}
-
-	.search-bar img
-	{
-		top: 40px;
-	}
-
-	.lowerheader-content
-	{
-		text-align: right;
-	}
-
-	.lowerheader-content h1
-	{
-	font-size: 36px;
-	}
-
-	.lowerheader-content a, .experience-content button
-	{
-	padding: 20px 55px 20px 56px;
-	font-size: 18px;
-	}
-
-	.getstart button
-	{
-		width: 250px;
-		height: 63px;
-		font-size: 18px;
-	}
-
-	.quotes-container
-	{
-		width: 51.244509%;
-		margin: 0 auto;
-	}
-
-	.left-quotes
-	{
-		float: left;
-		width: 48.142857%;
-	}
-
-	.right-quotes
-	{
-		float: right;
-		width: 48.142857%;
-
-	}
-
-	.experience-content h2
-	{
-	font-size: 40px;
-	}
-
-	.experience-content p
-	{
-	font-size: 18px;
-	}
-
-	.getstart h2
-	{
-		font-size: 30px;
-		font-weight: lighter;
-	}
-
-	.upper-footer-container p
-	{
-	width: 24.524158%;
-	}
-
-	.quotes::after 
-	{
-	position: absolute;
-	content: url("../Images/design.png");
-	left: 43%;
-	}
-
 }
 
 @media (min-width: 1200px)
 {
-	.logo
+
+	.logo-container
 	{
-		line-height: 102px;
+		padding: 40px 0;
 	}
+
+	.quotes-container
+	{
+	padding-left: 13.177159%;
+	padding-right: 2.1875%;
+	max-width: 100em;
+	margin:0 auto;
+}
+
+.getstart
+{
+	padding-left: 13.177159%;
+	padding-right: 2.1875%;
+	max-width: 100em;
+	margin:0 auto;
+}
+
+.allquotes
+{
+	margin-left: 11.375%;
+	width: 820px;
+}
+
 
 	.upperheader-container span
 	{
@@ -289,7 +302,7 @@
 
 	.navigation li
 	{
-		line-height: 102px;
+		line-height: 104px;
 	}
 
 

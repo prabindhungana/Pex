@@ -5,16 +5,12 @@ a
 }
 
 
-button:focus
-{
-	outline: 0;
-}
-
-.upperheader-container span
+.logo-text
 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11px;
 }
+
 .navigation li
 {
 	list-style-type: none;
@@ -37,23 +33,28 @@ button:focus
 	border-top: 2px solid white;
 }
 
+.nav-searchbar
+{
+	position: relative;
+}
+
 .lowerheader-content h1
 {
 	font-size: 18px;
-	padding-bottom: 11.494252%;
+	padding-bottom: 9.615384%;
 	color: white;
 }
 
 .lowerheader-content a
 {
 	display: inline-block;
-	padding: 10px 0;
+	padding: 10px 10px;
 	background-color: #8824cd;
 	border: 0;
 	border-radius: 50px;
 	margin-bottom: 4.137931%;
 	color: white;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: bold;
 }
 
@@ -66,7 +67,7 @@ button:focus
 
 .quotes-container h2
 {
-	font-size: 15px;
+	font-size: 12px;
 	margin-bottom: 5%;
 	text-transform: uppercase;
 }
@@ -74,17 +75,17 @@ button:focus
 .quotes-container p
 {
 	margin-bottom: 9.714285%;
-	font-size: 15px;
+	font-size: 12px;
 }
 
-.getstart button
+.getstart a
 {	
-	width: 180px;
-	height: 40px;
+	display: inline-block;
 	color: #e7526b;
+	padding: 15px 40px;
 	background: white;
 	border: 0;
-	border-radius: 30px;
+	border-radius: 50px;
 	font-size: 14px;
 
 }
@@ -92,42 +93,45 @@ button:focus
 .details h2, .wristwatch h2
 {
 	font-size: 15px;
-	font-weight: bold;
+	text-transform: uppercase;
+	color: #3a4d60;
 }
 
 .first-para
 {
-	font-size: 19px;
+	font-size: 16px;
 	line-height: 34px;
 	margin-bottom: 2.928257%;
+	color: #3a4d60;
 }
 
 .second-para
 {
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 25px;
+	color: #3a4d60;
 }
 
 .experience-content h2
 {
-	margin-bottom:2.196193%;
+	margin-bottom:32px;
 	font-weight: lighter;
 }
 
 .experience-content p
 {
 	line-height: 32px;
-	margin-bottom: 2.196193%;
 }
 
-.experience-content button
+.experience-content a
 {
-	margin-bottom: 1.317715%;
-	width:130px;
-	height: 40px;
+	display: inline-block;
+	margin-bottom: 18px;
+	margin-top: 32px;
 	background: #8824cd;
 	border: 0;
-	border-radius: 30px;
+	padding: 10px;
+	border-radius: 50px;
 	color: white;
 }
 

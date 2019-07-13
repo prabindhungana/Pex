@@ -18,6 +18,12 @@
 	margin-right: 40px;
 	}
 
+	.getstart, .details
+	{
+	 margin-right: 40px;
+	 margin-left: 40px;
+	}
+
 	.getstart a
 	{
 		padding: 15px 40px;
@@ -26,6 +32,12 @@
 	.getstart h2
 	{
 		font-size: 24px;
+	}
+
+	.wristwatch-text
+	{
+		margin-right: 40px;
+		margin-left: 40px;
 	}
 
 }
@@ -42,6 +54,8 @@
 	{
 		display: block;
 		background: none;
+		top:0px;
+		right: 0px;
 	}
 
 	.navigation li:hover
@@ -138,6 +152,10 @@
 	display: block;
 	}
 
+	.navigation
+	{
+		right: 195px;
+	}
 
 	.navigation li
 	{
@@ -181,7 +199,11 @@
 	{
 		float: right;
 		width: 48.142857%;
+	}
 
+	.details
+	{
+		margin-right: 13.030746%;
 	}
 
 	.experience-content h2
@@ -244,6 +266,7 @@
 
 	.wristwatch-text
 	{
+		margin-left: 13.030746%;
 		float: left;
 		width:40.775988%;
 
@@ -266,26 +289,16 @@
 		padding: 40px 0;
 	}
 
-	.quotes-container
+	.content
 	{
-	padding-left: 13.177159%;
-	padding-right: 2.1875%;
 	max-width: 100em;
 	margin:0 auto;
 }
 
-.getstart
+.quotes-top, .quotes-bottom
 {
-	padding-left: 13.177159%;
-	padding-right: 2.1875%;
-	max-width: 100em;
-	margin:0 auto;
-}
-
-.allquotes
-{
-	margin-left: 11.375%;
 	width: 820px;
+	margin: 0 auto;
 }
 
 

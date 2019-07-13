@@ -63,7 +63,7 @@
 	cursor: pointer;
 }
 
-.ham-menu:focus
+.ham-menu img:focus
 {
 	outline: none;
 }

@@ -1,6 +1,6 @@
-/** {
+* {
 	outline : 1px dotted red !important;
-}*/
+}
 
 a
 {
@@ -29,6 +29,11 @@ a
 {
 	color: white;
 	display: block;
+}
+
+.navigation li:last-child
+{
+	margin-right: 0;
 }
 
 .navigation li:hover

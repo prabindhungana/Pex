@@ -84,6 +84,7 @@ background: #c6556b;
 position: absolute;
 top: 69px;
 right: 0px;
+padding-right: 2.1875%;
 }
 
 .ham-menu:hover + .navigation

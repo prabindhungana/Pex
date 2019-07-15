@@ -1,174 +1,147 @@
-* {
-	outline : 1px dotted red !important;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-a
-{
-	text-decoration: none;
-	color: black;
+.logo-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
 }
 
-
-.logo-text
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 11px;
+.navigation li {
+  list-style-type: none;
+  color: white;
+  padding: 10px 50px;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
 }
 
-.navigation li
-{
-	list-style-type: none;
-	color: white;
-	padding: 10px 50px;
-	line-height: 20px ;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+.navigation li a {
+  color: white;
+  display: block;
 }
 
-.navigation li a
-{
-	color: white;
-	display: block;
+.navigation li:last-child {
+  margin-right: 0;
 }
 
-.navigation li:last-child
-{
-	margin-right: 0;
+.navigation li:hover {
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
 }
 
-.navigation li:hover
-{
-	border-bottom: 2px solid white;
-	border-top: 2px solid white;
+.lowerheader-content h1 {
+  font-size: 18px;
+  padding-bottom: 9.615384%;
+  color: white;
 }
 
-.lowerheader-content h1
-{
-	font-size: 18px;
-	padding-bottom: 9.615384%;
-	color: white;
+.lowerheader-content a {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #8824cd;
+  border: 0;
+  border-radius: 50px;
+  margin-bottom: 4.137931%;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.lowerheader-content a
-{
-	display: inline-block;
-	padding: 10px 10px;
-	background-color: #8824cd;
-	border: 0;
-	border-radius: 50px;
-	margin-bottom: 4.137931%;
-	color: white;
-	font-size: 12px;
-	font-weight: bold;
+.lowerheader-content p {
+  color: white;
+  font-size: 12px;
 }
 
-.lowerheader-content p
-{
-	color: white;
-	font-size: 12px;
-
+.quotes-container h2 {
+  font-size: 12px;
+  margin-bottom: 5%;
+  text-transform: uppercase;
 }
 
-.quotes-container h2
-{
-	font-size: 12px;
-	margin-bottom: 5%;
-	text-transform: uppercase;
+.quotes-container p {
+  margin-bottom: 9.714285%;
+  font-size: 12px;
 }
 
-.quotes-container p
-{
-	margin-bottom: 9.714285%;
-	font-size: 12px;
+.getstart a {
+  display: inline-block;
+  color: #e7526b;
+  padding: 15px 40px;
+  background: white;
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
 }
 
-.getstart a
-{	
-	display: inline-block;
-	color: #e7526b;
-	padding: 15px 40px;
-	background: white;
-	border: 0;
-	border-radius: 50px;
-	font-size: 14px;
-
+.details h2,
+.wristwatch h2 {
+  font-size: 13px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  color: #3a4d60;
 }
 
-.details h2, .wristwatch h2
-{
-	font-size: 15px;
-	text-transform: uppercase;
-	color: #3a4d60;
+.first-para {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 2.928257%;
+  color: #3a4d60;
 }
 
-.first-para
-{
-	font-size: 16px;
-	line-height: 34px;
-	margin-bottom: 2.928257%;
-	color: #3a4d60;
+.second-para {
+  font-size: 12px;
+  line-height: 25px;
+  color: #3a4d60;
 }
 
-.second-para
-{
-	font-size: 13px;
-	line-height: 25px;
-	color: #3a4d60;
+.experience-content h2 {
+  margin-bottom: 32px;
+  font-weight: lighter;
 }
 
-.experience-content h2
-{
-	margin-bottom:32px;
-	font-weight: lighter;
+.experience-content p {
+  line-height: 25px;
+  font-size: 15px;
 }
 
-.experience-content p
-{
-	line-height: 32px;
+.experience-content a {
+  display: inline-block;
+  margin-bottom: 18px;
+  margin-top: 32px;
+  background: #8824cd;
+  border: 0;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  font-size: 12px;
 }
 
-.experience-content a
-{
-	display: inline-block;
-	margin-bottom: 18px;
-	margin-top: 32px;
-	background: #8824cd;
-	border: 0;
-	padding: 10px;
-	border-radius: 50px;
-	color: white;
+.experience-content :last-child {
+  font-size: 12px;
 }
 
-.experience-content div
-{
-	font-size: 12px;
+.footer {
+  color: white;
 }
 
-.footer
-{
-	color: white;
+.upper-footer-container h2 {
+  margin-bottom: 1.756954%;
+  font-size: 12px;
 }
 
-.upper-footer-container h2
-{
-	margin-bottom: 1.756954%;
-	font-size: 15px;
+.upper-footer-container p {
+  margin-bottom: 2.708638%;
+  line-height: 25px;
+  font-size: 12px;
 }
 
-.upper-footer-container p
-{
-	margin-bottom: 2.708638%;
-	line-height: 25px;
-	font-size: 15px;
+.email {
+  text-decoration: underline;
+  font-size: 12px;
 }
 
-.email
-{
-	text-decoration: underline;
-	font-size: 15px;
-}
-
-.email a
-{
-	color: white;
+.email a {
+  color: white;
 }

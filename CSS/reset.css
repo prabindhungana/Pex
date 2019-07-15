@@ -1,23 +1,19 @@
-*
-{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.float-left
-{
-	float:left;
+.float-left {
+  float: left;
 }
 
-.float-right
-{
-	float: right;
+.float-right {
+  float: right;
 }
 
-.clear
-{
-	clear: both;
+.clear {
+  clear: both;
 }
 
 .clearfix::after {

@@ -1,351 +1,314 @@
-@media (min-width: 480px)
-{
-	.lowerheader-content h1
-	{
-	font-size: 24px;
-	}
+@media (min-width: 480px) {
+  .lowerheader-content h1 {
+    font-size: 24px;
+  }
 
+  .lowerheader-content a,
+  .experience-content a {
+    padding: 15px 20px;
+  }
 
-	.lowerheader-content a, .experience-content a
-	{
-	padding: 15px 20px;
-	}
+  .quotes-container {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
-	.quotes-container
-	{
-	
-	margin-left: 40px;
-	margin-right: 40px;
-	}
+  .getstart,
+  .details {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
 
-	.getstart, .details
-	{
-	 margin-right: 40px;
-	 margin-left: 40px;
-	}
+  .getstart a {
+    padding: 15px 40px;
+  }
 
-	.getstart a
-	{
-		padding: 15px 40px;
-	}
+  .getstart h2 {
+    font-size: 24px;
+  }
 
-	.getstart h2
-	{
-		font-size: 24px;
-	}
-
-	.wristwatch-text
-	{
-		margin-right: 40px;
-		margin-left: 40px;
-	}
-
+  .wristwatch-text {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
 }
 
-@media (min-width: 768px)
-{
+@media (min-width: 768px) {
+  .logo-container {
+    padding: 25px 0;
+  }
 
-	.logo-container
-	{
-		padding: 25px 0;
-	}
+  .navigation {
+    display: block;
+    background: none;
+    top: 0px;
+    right: 0px;
+  }
 
-	.navigation
-	{
-		display: block;
-		background: none;
-		top:0px;
-		right: 0px;
-	}
+  .navigation li:hover {
+    border-top: none;
+  }
 
-	.navigation li:hover
-	{
-		border-top: none;
-	}
+  .navigation li {
+    float: left;
+    margin-right: 51px;
+    padding: 0;
+    line-height: 80px;
+  }
 
-	.navigation li
-	{
-		float: left;
-		margin-right: 51px;
-		padding: 0;
-		line-height: 80px;
-	}
+  .ham-menu {
+    display: none;
+  }
 
-	
-	.ham-menu
-	{
-		display: none;
-	}
-	
+  .lowerheader-content h1 {
+    font-size: 30px;
+  }
 
-	.lowerheader-content h1
-	{
-	font-size: 30px;
-	}
+  .lowerheader-content a,
+  .experience-content a {
+    padding: 20px 55px 20px 56px;
+  }
 
-	.lowerheader-content a, .experience-content a
-	{
-	padding: 20px 55px 20px 56px;
-	}
+  .getstart {
+    margin: 0 auto;
+  }
 
-	.getstart
-	{
-	
-	margin: 0 auto;
-	}
+  .getstart a {
+    padding: 20px 60px;
+  }
+  .getstart h2 {
+    font-size: 26px;
+    font-weight: lighter;
+  }
 
-	.getstart a
-	{
-		padding: 20px 60px;
-	}
-	.getstart h2
-	{
-		font-size: 26px;
-		font-weight: lighter;
-	}
+  .getstart p {
+    width: 32.576866%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.getstart p
-	{
-		width: 32.576866%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  .first-para {
+    font-size: 16px;
+    line-height: 29px;
+  }
 
-	.writing img
-	{
-		display: block;
-		width: 39.311859%;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-	}
+  .second-para {
+    font-size: 13px;
+  }
 
-	.experience-content p
-	{
-		width: 46.120058%;
-		margin: 0 auto;
-	}
+  .experience-content p {
+    width: 46.120058%;
+    margin: 0 auto;
+  }
 
+  .photography-content h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    width: 38.172439%;
+  }
 
-	
+  .upper-footer-container h2 {
+    font-size: 15px;
+  }
 
-	.photography-content h1
-	{
-		font-size: 40px;
-		font-weight: lighter;
-	}
+  .upper-footer-container p {
+    font-size: 15px;
+  }
 
-
+  .email {
+    font-size: 15px;
+  }
 }
 
-@media (min-width: 992px)
-{
+@media (min-width: 992px) {
+  .logo-container {
+    padding-top: 35px;
+  }
 
-	.lowerheader-content
-	{
-		width: 47.8125%;
-	}
+  .lowerheader-content {
+    width: 47.8125%;
+  }
 
-	.search-bar
-	{
-	line-height: 90px;
-	display: block;
-	}
+  .search-bar {
+    line-height: 90px;
+    display: block;
+  }
 
-	.navigation
-	{
-		right: 220px;
-	}
+  .navigation {
+    right: 220px;
+  }
 
-	.navigation li
-	{
-		line-height: 90px;
-	}
+  .navigation li {
+    line-height: 90px;
+  }
 
-	.search-bar img
-	{
-		top: 40px;
-	}
+  .search-bar img {
+    top: 40px;
+  }
 
-	.lowerheader-content
-	{
-		text-align: right;
-	}
+  .lowerheader-content {
+    text-align: right;
+  }
 
-	.lowerheader-content h1
-	{
-	font-size: 36px;
-	}
+  .lowerheader-content h1 {
+    font-size: 36px;
+  }
 
-	.lowerheader-content a, .experience-content a
-	{
-	padding: 20px 55px 20px 56px;
-	font-size: 18px;
-	}
+  .lowerheader-content a,
+  .experience-content a {
+    padding: 20px 55px 20px 56px;
+    font-size: 18px;
+  }
 
-	.getstart a
-	{
-		padding: 25px 90px;
-		font-size: 18px;
-	}
+  .getstart a {
+    padding: 25px 90px;
+    font-size: 18px;
+  }
 
-	.left-quotes
-	{
-		float: left;
-		width: 48.142857%;
-	}
+  .quotes-container h2 {
+    font-size: 15px;
+  }
 
-	.right-quotes
-	{
-		float: right;
-		width: 48.142857%;
-	}
+  .first-para {
+    font-size: 19px;
+    line-height: 34px;
+  }
 
-	.details
-	{
-		margin-right: 13.030746%;
-	}
+  .second-para {
+    font-size: 15px;
+  }
 
-	.experience-content h2
-	{
-	font-size: 40px;
-	}
+  .quotes-container p {
+    font-size: 15px;
+  }
 
-	.experience-content p
-	{
-	font-size: 18px;
-	}
+  .left-quotes {
+    float: left;
+    width: 48.142857%;
+  }
 
-	.getstart h2
-	{
-		font-size: 30px;
-		font-weight: lighter;
-	}
+  .right-quotes {
+    float: right;
+    width: 48.142857%;
+  }
 
-	.upper-footer-container p
-	{
-	width: 24.524158%;
-	}
+  .details {
+    margin-right: 13.030746%;
+  }
 
-	.quotes::after 
-	{
-	position: absolute;
-	content: url("../Images/design.png");
-	left: 43%;
-	}
+  .experience-content h2 {
+    font-size: 40px;
+  }
 
-	.writing-in-detail
-	{
-		position: relative;
-	}
-	.writing
-	{
-		float: left;
-		display: block;
-		width: 39.311859%;
-	}
+  .experience-content p {
+    font-size: 18px;
+  }
 
-	.details
-	{
-		float: right;
-		width:40.775988%;
-	}
+  .getstart h2 {
+    font-size: 30px;
+    font-weight: lighter;
+  }
 
-	.wristwatch
-	{
-		position: relative;
-	}
+  .upper-footer-container p {
+    width: 24.524158%;
+  }
 
-	.wristwatch-img img
-	{
-		width: 39.311859%;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-	}
+  .quotes::after {
+    position: absolute;
+    content: url("../Images/design.png");
+    left: 43%;
+  }
 
-	.wristwatch-text
-	{
-		margin-left: 13.030746%;
-		float: left;
-		width:40.775988%;
+  .writing-in-detail {
+    position: relative;
+  }
+  .writing {
+    float: left;
+    display: block;
+    width: 39.311859%;
+  }
 
-	}
+  .details {
+    float: right;
+    width: 40.775988%;
+  }
 
-	.wristwatch-img
-	{
-		float: right;
-		width: 39.311859%;
-		display: block;
-	}
+  .wristwatch {
+    position: relative;
+  }
 
+  .wristwatch-img img {
+    width: 39.311859%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  .wristwatch-text {
+    margin-left: 13.030746%;
+    float: left;
+    width: 40.775988%;
+  }
+
+  .wristwatch-img {
+    float: right;
+    width: 39.311859%;
+    display: block;
+  }
 }
 
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
+  .logo-container {
+    padding-top: 42px;
+    padding-bottom: 0;
+  }
 
-	.logo-container
-	{
-		padding: 40px 0;
-	}
+  .logo-text {
+    position: absolute;
+  }
 
-	.content
-	{
-	max-width: 100em;
-	margin:0 auto;
-}
+  .content {
+    max-width: 100em;
+    margin: 0 auto;
+  }
 
-.quotes-top, .quotes-bottom
-{
-	width: 820px;
-	margin: 0 auto;
-}
+  .quotes-top,
+  .quotes-bottom {
+    width: 820px;
+    margin: 0 auto;
+  }
 
+  .upperheader-container span {
+    display: inline;
+  }
 
-	.upperheader-container span
-	{
-		display: inline;
-	}
+  .navigation {
+    right: 220px;
+  }
 
+  .navigation li {
+    line-height: 102px;
+  }
 
-	.navigation
-	{
-		right: 220px;
-	}
+  .search {
+    display: inline-block;
+    line-height: 102px;
+  }
 
-	.navigation li
-	{
-		line-height: 104px;
-	}
+  .search-bar img {
+    top: 45px;
+  }
 
+  .lowerheader-content h1 {
+    font-size: 50px;
+  }
 
-	.search
-	{
-		display: inline-block;
-		line-height: 102px;
-	}
+  .getstart h2 {
+    font-size: 35px;
+    font-weight: lighter;
+  }
 
-	.search-bar img
-	{
-		top: 45px;
-	}
-
-	.lowerheader-content h1
-	{
-	font-size: 50px;
-	}
-
-	.getstart h2
-	{
-		font-size: 35px;
-		font-weight: lighter;
-	}
-
-	.photography-content h1
-	{
-		font-size: 50px;
-	}
-
-
-
+  .photography-content h1 {
+    font-size: 50px;
+  }
 }

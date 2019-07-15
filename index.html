@@ -8,14 +8,15 @@
 	<link rel="stylesheet" href="./CSS/layout.css">
 	<link rel="stylesheet" href="./CSS/style.css">
 	<link rel="stylesheet" href="./CSS/responsive.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet"> -->
 </head>
 <body>
 	<div class="wrapper">
 		<div class="header">
 			<div class="upperheader">
 				<div class="upperheader-container">
-					<a href="#" class="logo-container" title="logo">
+					<a href="#" class="logo-container clearfix" title="logo">
 						<div class="logo float-left">
 							<img src="./Images/logo.png" alt="logo">
 						</div>
@@ -47,7 +48,7 @@
 				<div class="container">
 				<div class="lowerheader-content">
 					<h1> Designs your eyeballs will thank your for </h1>
-					<a href="#"> Get Started Today </a>
+					<a href="#" title = "getstartedtoday"> Get Started Today </a>
 					<p> Lorem ipsum dolor sit amet, dolore magnam</p>
 				</div>
 				</div>
@@ -93,7 +94,7 @@
 						<h2> Wicked & whack, bang bang boo! </h2>
 						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut </p>
-						<a href="#"> Get Started Today </a>
+						<a href="#" title = "getstartedtoday"> Get Started Today </a>
 					</div>
 				</div>
 				<div class="writing-in-detail content">
@@ -111,20 +112,21 @@
 					<div class="experience-content content">
 						<h2> Experience the rush today </h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipisicing elit.</p>
-						<a href="#"> Get Started Today </a>
-						<div> Lorem ipsum dolor sit amet </div>
+						<a href="#" title = "getstartedtoday"> Get Started Today </a>
+						<p> Lorem ipsum dolor sit amet </p>
 					</div>
 				</div>
 				<div class="photography">
 					<div class="photography-content container">
-						<a href="#"> Photography </a>
+						<a href="#" title="photography"> Photography </a>
 						<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit </h1>
 						<div class="author">
 							<img src="./Images/author.png" alt="Author" class="float-left"><span class="float-left">Blad Robar, god like web designer</span>
 							<div class="clear"></div>
 						</div>
 					</div>
-				</div>
+				</div> 
+    			</div>
 				<div class="wristwatch content">
 					<div class="wristwatch-text">
 						<h2> A heading is what you need here </h2>
@@ -136,6 +138,20 @@
 					</div>
 					<div class="clear"></div>
 				</div>
+				<div class="carousel-container">
+                    <div class="imagewrapper">
+                        <div class="sliderimages">
+                            <img src="./Images/img1.jpg" alt="tree" />
+                        </div>
+                        <div class="sliderimages">
+                            <img src="./Images/img2.jpg" alt="night dinner" />
+                        </div>
+                        <div class="sliderimages">
+                            <img src="./Images/img3.jpg" alt="woods" />
+						</div>
+						<div class="clear"></div>
+                    </div>          
+                </div>  
 				<div class="footer">
 					<div class="upper-footer">
 						<div class="upper-footer-container">
@@ -148,5 +164,6 @@
 						<p class="lower-footer-container">psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 				</div>
 		</div>
+<script src="./Javascript/slider.js"></script>
 </body>
 </html>

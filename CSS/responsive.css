@@ -233,6 +233,15 @@
     width: 40.775988%;
   }
 
+  .writing img
+  {
+    display: block;
+    width: 39.311859%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
   .wristwatch {
     position: relative;
   }

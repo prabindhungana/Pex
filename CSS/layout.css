@@ -196,6 +196,7 @@
   background: url("../Images/purple transparent.png"),
     url("../Images/hills.jpg");
   background-repeat: repeat, no-repeat;
+  background-size: cover;
 }
 
 .experience-content {
